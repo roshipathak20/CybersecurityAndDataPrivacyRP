@@ -2,8 +2,7 @@ TEST REPORT – BOOKING SYSTEM PHASE 1
 
 Introduction
 
-Testers:
-My name is Roshani Pathak and I completed the testing for this phase.
+Testers:Testers: Roshani Pathak and Sushil Poudel.
 
 Purpose:
 The purpose of this test was to examine how the registration page works, find any problems or strange behaviour, and check for basic security weaknesses. Since this is Phase 1, only the registration part was tested.
