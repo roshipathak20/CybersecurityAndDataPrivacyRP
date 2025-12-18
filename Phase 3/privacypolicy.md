@@ -8,7 +8,6 @@ The system provider acts as the data controller and is responsible for the proce
 
 ## 3. Personal Data Collected
 The following personal data may be collected:
-- Name
 - Email address
 - Age (to verify eligibility for resource booking)
 - Booking and reservation details
