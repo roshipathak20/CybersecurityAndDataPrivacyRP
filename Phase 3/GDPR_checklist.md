@@ -1,69 +1,69 @@
-# GDPR Compliance Checklist – Booking System (Phase 4)
+# GDPR Compliance Checklist – Booking System
 
-This document presents a General Data Protection Regulation (GDPR) compliance review of the Booking System application. The review is based on GDPR principles, system requirements, and the Privacy by Design approach.
-
----
-
-## 1. Transparency and Lawfulness
-
-| Requirement | Compliance | Notes |
-|------------|-----------|------|
-| Privacy policy is available to users | Yes | Privacy policy is documented |
-| Lawful basis for data processing is defined | Yes | Consent and contractual necessity |
-| Users are informed about data collection and usage | Yes | Information provided in privacy policy |
+This checklist evaluates the GDPR compliance of the Booking System application.
 
 ---
 
-## 2. Data Minimization and Purpose Limitation
+## Lawful Basis & Transparency
 
-| Requirement | Compliance | Notes |
-|------------|-----------|------|
-| Only necessary personal data is collected | Yes | Name, email, age, booking data |
-| Personal data is used only for booking purposes | Yes | No secondary processing |
-
----
-
-## 3. Data Subject Rights (GDPR Articles 15–22)
-
-| Right | Compliance | Notes |
-|------|-----------|------|
-| Right of access | Yes | Users can access account information |
-| Right to rectification | Yes | Users can update personal data |
-| Right to erasure | Yes | Administrator can delete user accounts |
-| Right to data portability | Partial | Data provided upon request |
-| Right to object | Yes | Users may request account deletion |
+| Requirement | Status | Notes |
+|-----------|--------|------|
+| Users are informed about personal data collection | ✅ Yes | Privacy Policy explains what data is collected |
+| Lawful basis for processing is defined | ✅ Yes | Data is processed based on user consent and contractual necessity |
+| Privacy Policy is easily accessible | ✅ Yes | Available via /privacypolicy |
 
 ---
 
-## 4. Security and Access Control
+## Data Minimization & Purpose Limitation
 
-| Requirement | Compliance | Notes |
-|------------|-----------|------|
-| Authentication required for personal data access | Yes | Login required |
-| Role-based access control implemented | Yes | Administrator and reserver roles |
-| Public booking view hides personal identities | Yes | No personal data displayed publicly |
-
----
-
-## 5. Privacy by Design and Default
-
-| Principle | Compliance | Notes |
-|----------|-----------|------|
-| Privacy by Design | Yes | Data protection considered in system design |
-| Privacy by Default | Yes | Minimal data exposure |
-| Accountability | Yes | GDPR documentation maintained |
+| Requirement | Status | Notes |
+|-----------|--------|------|
+| Only necessary personal data is collected | ✅ Yes | Name, email, age only |
+| Data is used only for booking purposes | ✅ Yes | No secondary usage |
 
 ---
 
-## 6. Cookies and Tracking
+## User Rights
 
-| Requirement | Compliance | Notes |
-|------------|-----------|------|
-| Cookie policy available | Yes | Cookie policy documented |
-| Use of non-essential cookies | No | Only essential cookies used |
+| Requirement | Status | Notes |
+|-----------|--------|------|
+| Right to access personal data | ✅ Yes | Users can view account data |
+| Right to rectification | ✅ Yes | Users can update profile |
+| Right to erasure (Right to be forgotten) | ✅ Yes | Admin can delete user |
+| Right to data portability | ⚠️ Partial | Can be requested via admin |
+| Right to object | ✅ Yes | Users can request deletion |
 
 ---
 
-## 7. Overall Assessment
+## Data Security
 
-Based on this review, the Booking System meets GDPR requirements at the documentation and design level.
+| Requirement | Status | Notes |
+|-----------|--------|------|
+| Authentication required for personal data access | ✅ Yes | Login required |
+| Role-based access control | ✅ Yes | Admin vs Reserver |
+| Public booking view hides personal identities | ✅ Yes | Reserver identity not shown |
+
+---
+
+## GDPR Principles
+
+| Principle | Status | Notes |
+|--------|--------|------|
+| Privacy by Design | ✅ Yes | Data protection considered from start |
+| Privacy by Default | ✅ Yes | Minimal data exposure |
+| Accountability | ✅ Yes | Policies documented |
+
+---
+
+## Cookies & Tracking
+
+| Requirement | Status | Notes |
+|-----------|--------|------|
+| Cookie policy available | ✅ Yes | cookiepolicy.md |
+| Non-essential cookies require consent | ✅ Yes | Documented |
+
+---
+
+## Overall GDPR Status
+
+✅ **The application is GDPR compliant based on documentation and system behavior.**
