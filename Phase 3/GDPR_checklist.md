@@ -18,7 +18,7 @@ This checklist evaluates the GDPR compliance of the Booking System application.
 
 | Requirement | Status | Notes |
 |-----------|--------|------|
-| Only necessary personal data is collected | ✅ Yes | Name, email, age only |
+| Only necessary personal data is collected | ✅ Yes | email, age only |
 | Data is used only for booking purposes | ✅ Yes | No secondary usage |
 
 ---
