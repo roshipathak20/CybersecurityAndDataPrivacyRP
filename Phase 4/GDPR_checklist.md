@@ -28,11 +28,11 @@ This checklist evaluates the GDPR compliance of the Booking System application.
 | Requirement | Status | Notes |
 |-----------|--------|------|
 | Right to access personal data | ✅ Yes | Users can view account data |
-| Right to rectification | ✅ Yes | Users can update profile |
+| Right to rectification | No | The application does not provide functionality for users to update their personal data |
 | Right to erasure (Right to be forgotten) | ✅ Yes | Admin can delete user |
 | Right to data portability | ⚠️ Partial | Can be requested via admin |
 | Right to object | ✅ Yes | Users can request deletion |
-
+| GDPR impact | Risk | Rectification requests would require administrator intervention or are not supported |
 ---
 
 ## Data Security
